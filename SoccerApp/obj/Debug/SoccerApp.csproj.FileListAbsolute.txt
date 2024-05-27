@@ -1,0 +1,13 @@
+D:\SoccerApp\SoccerApp\SoccerApp\bin\Debug\SoccerApp.exe.config
+D:\SoccerApp\SoccerApp\SoccerApp\bin\Debug\SoccerApp.exe
+D:\SoccerApp\SoccerApp\SoccerApp\bin\Debug\SoccerApp.pdb
+D:\SoccerApp\SoccerApp\SoccerApp\bin\Debug\MaterialSkin.dll
+D:\SoccerApp\SoccerApp\SoccerApp\obj\Debug\SoccerApp.csproj.AssemblyReference.cache
+D:\SoccerApp\SoccerApp\SoccerApp\obj\Debug\SoccerApp.Properties.Resources.resources
+D:\SoccerApp\SoccerApp\SoccerApp\obj\Debug\SoccerApp.csproj.GenerateResource.cache
+D:\SoccerApp\SoccerApp\SoccerApp\obj\Debug\SoccerApp.csproj.CoreCompileInputs.cache
+D:\SoccerApp\SoccerApp\SoccerApp\obj\Debug\SoccerApp.csproj.Up2Date
+D:\SoccerApp\SoccerApp\SoccerApp\obj\Debug\SoccerApp.exe
+D:\SoccerApp\SoccerApp\SoccerApp\obj\Debug\SoccerApp.pdb
+D:\SoccerApp\SoccerApp\SoccerApp\obj\Debug\SoccerApp.AuthorizationForm.resources
+D:\SoccerApp\SoccerApp\SoccerApp\obj\Debug\SoccerApp.AdminForm.resources
