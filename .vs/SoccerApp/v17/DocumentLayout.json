@@ -3,60 +3,64 @@
   "WorkspaceRootPath": "D:\\SoccerApp\\SoccerApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|D:\\SoccerApp\\SoccerApp\\soccerapp\\classes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|solutionrelative:soccerapp\\classes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|d:\\soccerapp\\soccerapp\\soccerapp\\classes\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|solutionrelative:soccerapp\\classes\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|D:\\SoccerApp\\SoccerApp\\soccerapp\\forms\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|solutionrelative:soccerapp\\forms\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|D:\\SoccerApp\\SoccerApp\\soccerapp\\forms\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|solutionrelative:soccerapp\\forms\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|D:\\SoccerApp\\SoccerApp\\soccerapp\\classes\\fan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|solutionrelative:soccerapp\\classes\\fan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|D:\\SoccerApp\\SoccerApp\\soccerapp\\forms\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|solutionrelative:soccerapp\\forms\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|D:\\SoccerApp\\SoccerApp\\soccerapp\\classes\\soccerteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|solutionrelative:soccerapp\\classes\\soccerteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|D:\\SoccerApp\\SoccerApp\\soccerapp\\forms\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|solutionrelative:soccerapp\\forms\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|d:\\soccerapp\\soccerapp\\soccerapp\\forms\\regconfirmationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|solutionrelative:soccerapp\\forms\\regconfirmationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|D:\\SoccerApp\\SoccerApp\\soccerapp\\forms\\authorizationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|solutionrelative:soccerapp\\forms\\authorizationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|d:\\soccerapp\\soccerapp\\soccerapp\\forms\\registrationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|solutionrelative:soccerapp\\forms\\registrationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|D:\\SoccerApp\\SoccerApp\\soccerapp\\classes\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|solutionrelative:soccerapp\\classes\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|D:\\SoccerApp\\SoccerApp\\soccerapp\\forms\\fanform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|solutionrelative:soccerapp\\forms\\fanform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|d:\\soccerapp\\soccerapp\\soccerapp\\classes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|solutionrelative:soccerapp\\classes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|D:\\SoccerApp\\SoccerApp\\soccerapp\\forms\\authorizationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|solutionrelative:soccerapp\\forms\\authorizationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|d:\\soccerapp\\soccerapp\\soccerapp\\forms\\authorizationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|solutionrelative:soccerapp\\forms\\authorizationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|D:\\SoccerApp\\SoccerApp\\soccerapp\\forms\\registrationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|solutionrelative:soccerapp\\forms\\registrationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|D:\\SoccerApp\\SoccerApp\\soccerapp\\classes\\soccerteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|solutionrelative:soccerapp\\classes\\soccerteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|D:\\SoccerApp\\SoccerApp\\soccerapp\\forms\\authorizationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|solutionrelative:soccerapp\\forms\\authorizationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|D:\\SoccerApp\\SoccerApp\\soccerapp\\forms\\regconfirmationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|solutionrelative:soccerapp\\forms\\regconfirmationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|D:\\SoccerApp\\SoccerApp\\soccerapp\\forms\\fanform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|solutionrelative:soccerapp\\forms\\fanform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|D:\\SoccerApp\\SoccerApp\\soccerapp\\forms\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|solutionrelative:soccerapp\\forms\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|d:\\soccerapp\\soccerapp\\soccerapp\\forms\\regconfirmationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|D:\\SoccerApp\\SoccerApp\\soccerapp\\forms\\regconfirmationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|solutionrelative:soccerapp\\forms\\regconfirmationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|D:\\SoccerApp\\SoccerApp\\soccerapp\\forms\\authorizationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|solutionrelative:soccerapp\\forms\\authorizationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|D:\\SoccerApp\\SoccerApp\\soccerapp\\forms\\fanform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -65,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|D:\\SoccerApp\\SoccerApp\\soccerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|solutionrelative:soccerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|D:\\SoccerApp\\SoccerApp\\soccerapp\\classes\\fan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|solutionrelative:soccerapp\\classes\\fan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB3C9AA1-7471-4879-AB19-A07063835929}|SoccerApp\\SoccerApp.csproj|D:\\SoccerApp\\SoccerApp\\soccerapp\\classes\\tournament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -90,11 +90,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\SoccerApp\\SoccerApp\\SoccerApp\\Program.cs",
               "RelativeDocumentMoniker": "SoccerApp\\Program.cs",
@@ -108,13 +108,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "AuthorizationForm.cs",
               "DocumentMoniker": "D:\\SoccerApp\\SoccerApp\\SoccerApp\\Forms\\AuthorizationForm.cs",
               "RelativeDocumentMoniker": "SoccerApp\\Forms\\AuthorizationForm.cs",
               "ToolTip": "D:\\SoccerApp\\SoccerApp\\SoccerApp\\Forms\\AuthorizationForm.cs",
               "RelativeToolTip": "SoccerApp\\Forms\\AuthorizationForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA2AAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwA8AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T00:19:18.944Z",
               "IsPinned": true,
@@ -122,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "AuthorizationForm.cs [Design]",
               "DocumentMoniker": "D:\\SoccerApp\\SoccerApp\\SoccerApp\\Forms\\AuthorizationForm.cs",
               "RelativeDocumentMoniker": "SoccerApp\\Forms\\AuthorizationForm.cs",
@@ -135,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "AdminForm.cs",
               "DocumentMoniker": "D:\\SoccerApp\\SoccerApp\\SoccerApp\\Forms\\AdminForm.cs",
               "RelativeDocumentMoniker": "SoccerApp\\Forms\\AdminForm.cs",
@@ -149,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AdminForm.cs [Design]",
               "DocumentMoniker": "D:\\SoccerApp\\SoccerApp\\SoccerApp\\Forms\\AdminForm.cs",
               "RelativeDocumentMoniker": "SoccerApp\\Forms\\AdminForm.cs",
@@ -162,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "FanForm.cs",
               "DocumentMoniker": "D:\\SoccerApp\\SoccerApp\\SoccerApp\\Forms\\FanForm.cs",
               "RelativeDocumentMoniker": "SoccerApp\\Forms\\FanForm.cs",
@@ -176,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "FanForm.cs [Design]",
               "DocumentMoniker": "D:\\SoccerApp\\SoccerApp\\SoccerApp\\Forms\\FanForm.cs",
               "RelativeDocumentMoniker": "SoccerApp\\Forms\\FanForm.cs",
@@ -227,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "SoccerTeam.cs",
               "DocumentMoniker": "D:\\SoccerApp\\SoccerApp\\SoccerApp\\Classes\\SoccerTeam.cs",
               "RelativeDocumentMoniker": "SoccerApp\\Classes\\SoccerTeam.cs",
@@ -241,13 +241,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Admin.cs",
               "DocumentMoniker": "D:\\SoccerApp\\SoccerApp\\SoccerApp\\Classes\\Admin.cs",
               "RelativeDocumentMoniker": "SoccerApp\\Classes\\Admin.cs",
               "ToolTip": "D:\\SoccerApp\\SoccerApp\\SoccerApp\\Classes\\Admin.cs",
               "RelativeToolTip": "SoccerApp\\Classes\\Admin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAwAoAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T23:28:29.781Z",
               "IsPinned": true,
@@ -255,13 +255,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\SoccerApp\\SoccerApp\\SoccerApp\\Classes\\Player.cs",
               "RelativeDocumentMoniker": "SoccerApp\\Classes\\Player.cs",
               "ToolTip": "D:\\SoccerApp\\SoccerApp\\SoccerApp\\Classes\\Player.cs",
               "RelativeToolTip": "SoccerApp\\Classes\\Player.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwCIAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T16:57:04.835Z",
               "IsPinned": true,
@@ -269,13 +269,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 1,
               "Title": "Fan.cs",
               "DocumentMoniker": "D:\\SoccerApp\\SoccerApp\\SoccerApp\\Classes\\Fan.cs",
               "RelativeDocumentMoniker": "SoccerApp\\Classes\\Fan.cs",
               "ToolTip": "D:\\SoccerApp\\SoccerApp\\SoccerApp\\Classes\\Fan.cs",
               "RelativeToolTip": "SoccerApp\\Classes\\Fan.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T16:57:32.1Z",
               "IsPinned": true,
@@ -283,13 +283,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "RegistrationForm.cs",
               "DocumentMoniker": "D:\\SoccerApp\\SoccerApp\\SoccerApp\\Forms\\RegistrationForm.cs",
               "RelativeDocumentMoniker": "SoccerApp\\Forms\\RegistrationForm.cs",
               "ToolTip": "D:\\SoccerApp\\SoccerApp\\SoccerApp\\Forms\\RegistrationForm.cs",
               "RelativeToolTip": "SoccerApp\\Forms\\RegistrationForm.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAUwDoAAAAaAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T17:41:24.829Z",
               "IsPinned": true,
@@ -297,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "RegistrationForm.cs [Design]",
               "DocumentMoniker": "D:\\SoccerApp\\SoccerApp\\SoccerApp\\Forms\\RegistrationForm.cs",
               "RelativeDocumentMoniker": "SoccerApp\\Forms\\RegistrationForm.cs",
@@ -310,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "RegConfirmationForm.cs",
               "DocumentMoniker": "D:\\SoccerApp\\SoccerApp\\SoccerApp\\Forms\\RegConfirmationForm.cs",
               "RelativeDocumentMoniker": "SoccerApp\\Forms\\RegConfirmationForm.cs",
@@ -324,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "RegConfirmationForm.cs [Design]",
               "DocumentMoniker": "D:\\SoccerApp\\SoccerApp\\SoccerApp\\Forms\\RegConfirmationForm.cs",
               "RelativeDocumentMoniker": "SoccerApp\\Forms\\RegConfirmationForm.cs",
@@ -336,19 +336,6 @@
               "EditorCaption": " [Design]"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RegistrationForm.Designer.cs",
-              "DocumentMoniker": "D:\\SoccerApp\\SoccerApp\\SoccerApp\\Forms\\RegistrationForm.Designer.cs",
-              "RelativeDocumentMoniker": "SoccerApp\\Forms\\RegistrationForm.Designer.cs",
-              "ToolTip": "D:\\SoccerApp\\SoccerApp\\SoccerApp\\Forms\\RegistrationForm.Designer.cs",
-              "RelativeToolTip": "SoccerApp\\Forms\\RegistrationForm.Designer.cs",
-              "ViewState": "AQIAAJEAAAAAAAAAAAAEwKEAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T23:08:08.528Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
@@ -358,7 +345,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 8,
+              "Title": "RegistrationForm.Designer.cs",
+              "DocumentMoniker": "D:\\SoccerApp\\SoccerApp\\SoccerApp\\Forms\\RegistrationForm.Designer.cs",
+              "RelativeDocumentMoniker": "SoccerApp\\Forms\\RegistrationForm.Designer.cs",
+              "ToolTip": "D:\\SoccerApp\\SoccerApp\\SoccerApp\\Forms\\RegistrationForm.Designer.cs",
+              "RelativeToolTip": "SoccerApp\\Forms\\RegistrationForm.Designer.cs",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAEwKQAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T23:08:08.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "AuthorizationForm.Designer.cs",
               "DocumentMoniker": "D:\\SoccerApp\\SoccerApp\\SoccerApp\\Forms\\AuthorizationForm.Designer.cs",
               "RelativeDocumentMoniker": "SoccerApp\\Forms\\AuthorizationForm.Designer.cs",

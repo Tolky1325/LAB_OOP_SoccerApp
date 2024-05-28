@@ -11,6 +11,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Text.Json;
 using System.IO;
+using SoccerApp;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Rebar;
+using Newtonsoft.Json;
 
 namespace SoccerApp.Forms
 {
@@ -19,6 +22,7 @@ namespace SoccerApp.Forms
         public string adminQuan = "D:\\SoccerApp\\SoccerApp\\adminQuan.txt";
         public string playerQuan = "D:\\SoccerApp\\SoccerApp\\playerQuan.txt";
         public string fanQuan = "D:\\SoccerApp\\SoccerApp\\fanQuan.txt";
+        
 
         public int DataReader(string read)
         {
@@ -40,34 +44,53 @@ namespace SoccerApp.Forms
         {
             string loginType = null;
             int quan;
-            if (fanRadioButtonReg.Checked == true)
+            int id;
+            string login = loginCreateRegTB.Text;
+            string password = passwordRegTB.Text;
+            string confpassword = confPasswordRegTB.Text;
+            if (string.IsNullOrEmpty(login) && password == confpassword)
             {
-                loginType = "fan";
-            }
-            else if (playerRadioButton.Checked == true)
-            {
-                loginType = "player";
-            }
-            else if(adminRadioButtonReg.Checked == true) 
-            {
-                loginType = "admin";
-            }
-            switch (loginType)
-            {
-                case "fan":
-                    quan = DataReader(fanQuan);
-                    break;
+                string fanJson = "D:\\SoccerApp\\SoccerApp\\fanJson.json";
+                if (fanRadioButtonReg.Checked == true)
+                {
+                    loginType = "fan";
+                }
+                else if (playerRadioButton.Checked == true)
+                {
+                    loginType = "player";
+                }
+                else if (adminRadioButtonReg.Checked == true)
+                {
+                    loginType = "admin";
+                }
+               /* switch (loginType)
+                {
+                    case "fan":
+                        quan = DataReader(fanQuan);
+                        id = quan;
+                        List<Fan> fanList = new List<Fan>();
+                        Fan fan = new Fan(id, login, password) { fanId = id, login = login, password = password }; 
+                
+                        fanList.Add(fan);
+                        fanList = JsonConvert.SerializeObject(fanJson);
+                        break;  
 
-                case "player":
-                    quan = DataReader(playerQuan);
-                    break;
-                case "admin":
-                    quan = DataReader(adminQuan);
-                    break;
+                    case "player":
+                        quan = DataReader(playerQuan);
+                        break;
+                    case "admin":
+                        quan = DataReader(adminQuan);
+                        break;
+                }*/
+                Hide();
+                RegConfirmationForm regConfirmationForm = new RegConfirmationForm();
+                regConfirmationForm.ShowDialog();
             }
-            Hide();
-            RegConfirmationForm regConfirmationForm = new RegConfirmationForm();
-            regConfirmationForm.ShowDialog();
+        }
+
+        private List<Fan> Deserialize(List<Fan> fan)
+        {
+            throw new NotImplementedException();
         }
     }
 }

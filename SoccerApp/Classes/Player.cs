@@ -9,11 +9,11 @@ namespace SoccerApp
     
         sealed class Player : SoccerTeam
         {
-            public string login;
-            public string password;
+            public string login {  get; set; }
+            public string password { get; set; }
             public string playerFirstName;
             public string playerSecondName;
-            public int playerId;
+            public int playerId {  get; set; }
             public int playerAge;
 
             public Player() { }

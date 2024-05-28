@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegistrationForm));
             this.loginCreateRegTB = new MaterialSkin.Controls.MaterialTextBox2();
             this.passwordRegTB = new MaterialSkin.Controls.MaterialTextBox2();
-            this.materialTextBox23 = new MaterialSkin.Controls.MaterialTextBox2();
+            this.confPasswordRegTB = new MaterialSkin.Controls.MaterialTextBox2();
             this.signUpMatBReg = new MaterialSkin.Controls.MaterialButton();
             this.adminRadioButtonReg = new MaterialSkin.Controls.MaterialRadioButton();
             this.playerRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
@@ -48,7 +48,8 @@
             this.loginCreateRegTB.HideSelection = true;
             this.loginCreateRegTB.Hint = "CREATE LOGIN";
             this.loginCreateRegTB.LeadingIcon = null;
-            this.loginCreateRegTB.Location = new System.Drawing.Point(275, 161);
+            this.loginCreateRegTB.Location = new System.Drawing.Point(367, 198);
+            this.loginCreateRegTB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.loginCreateRegTB.MaxLength = 32767;
             this.loginCreateRegTB.MouseState = MaterialSkin.MouseState.OUT;
             this.loginCreateRegTB.Name = "loginCreateRegTB";
@@ -60,7 +61,7 @@
             this.loginCreateRegTB.SelectionLength = 0;
             this.loginCreateRegTB.SelectionStart = 0;
             this.loginCreateRegTB.ShortcutsEnabled = true;
-            this.loginCreateRegTB.Size = new System.Drawing.Size(250, 48);
+            this.loginCreateRegTB.Size = new System.Drawing.Size(333, 48);
             this.loginCreateRegTB.TabIndex = 0;
             this.loginCreateRegTB.TabStop = false;
             this.loginCreateRegTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -77,7 +78,8 @@
             this.passwordRegTB.HideSelection = true;
             this.passwordRegTB.Hint = "ENTER PASSWORD";
             this.passwordRegTB.LeadingIcon = null;
-            this.passwordRegTB.Location = new System.Drawing.Point(275, 215);
+            this.passwordRegTB.Location = new System.Drawing.Point(367, 265);
+            this.passwordRegTB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.passwordRegTB.MaxLength = 32767;
             this.passwordRegTB.MouseState = MaterialSkin.MouseState.OUT;
             this.passwordRegTB.Name = "passwordRegTB";
@@ -89,41 +91,42 @@
             this.passwordRegTB.SelectionLength = 0;
             this.passwordRegTB.SelectionStart = 0;
             this.passwordRegTB.ShortcutsEnabled = true;
-            this.passwordRegTB.Size = new System.Drawing.Size(250, 48);
+            this.passwordRegTB.Size = new System.Drawing.Size(333, 48);
             this.passwordRegTB.TabIndex = 1;
             this.passwordRegTB.TabStop = false;
             this.passwordRegTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.passwordRegTB.TrailingIcon = null;
             this.passwordRegTB.UseSystemPasswordChar = false;
             // 
-            // materialTextBox23
+            // confPasswordRegTB
             // 
-            this.materialTextBox23.AnimateReadOnly = false;
-            this.materialTextBox23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.materialTextBox23.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.materialTextBox23.Depth = 0;
-            this.materialTextBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox23.HideSelection = true;
-            this.materialTextBox23.Hint = "CONFIRM PASSWORD";
-            this.materialTextBox23.LeadingIcon = null;
-            this.materialTextBox23.Location = new System.Drawing.Point(275, 269);
-            this.materialTextBox23.MaxLength = 32767;
-            this.materialTextBox23.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox23.Name = "materialTextBox23";
-            this.materialTextBox23.PasswordChar = '●';
-            this.materialTextBox23.PrefixSuffixText = null;
-            this.materialTextBox23.ReadOnly = false;
-            this.materialTextBox23.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.materialTextBox23.SelectedText = "";
-            this.materialTextBox23.SelectionLength = 0;
-            this.materialTextBox23.SelectionStart = 0;
-            this.materialTextBox23.ShortcutsEnabled = true;
-            this.materialTextBox23.Size = new System.Drawing.Size(250, 48);
-            this.materialTextBox23.TabIndex = 2;
-            this.materialTextBox23.TabStop = false;
-            this.materialTextBox23.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.materialTextBox23.TrailingIcon = null;
-            this.materialTextBox23.UseSystemPasswordChar = false;
+            this.confPasswordRegTB.AnimateReadOnly = false;
+            this.confPasswordRegTB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.confPasswordRegTB.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.confPasswordRegTB.Depth = 0;
+            this.confPasswordRegTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.confPasswordRegTB.HideSelection = true;
+            this.confPasswordRegTB.Hint = "CONFIRM PASSWORD";
+            this.confPasswordRegTB.LeadingIcon = null;
+            this.confPasswordRegTB.Location = new System.Drawing.Point(367, 331);
+            this.confPasswordRegTB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.confPasswordRegTB.MaxLength = 32767;
+            this.confPasswordRegTB.MouseState = MaterialSkin.MouseState.OUT;
+            this.confPasswordRegTB.Name = "confPasswordRegTB";
+            this.confPasswordRegTB.PasswordChar = '●';
+            this.confPasswordRegTB.PrefixSuffixText = null;
+            this.confPasswordRegTB.ReadOnly = false;
+            this.confPasswordRegTB.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.confPasswordRegTB.SelectedText = "";
+            this.confPasswordRegTB.SelectionLength = 0;
+            this.confPasswordRegTB.SelectionStart = 0;
+            this.confPasswordRegTB.ShortcutsEnabled = true;
+            this.confPasswordRegTB.Size = new System.Drawing.Size(333, 48);
+            this.confPasswordRegTB.TabIndex = 2;
+            this.confPasswordRegTB.TabStop = false;
+            this.confPasswordRegTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.confPasswordRegTB.TrailingIcon = null;
+            this.confPasswordRegTB.UseSystemPasswordChar = false;
             // 
             // signUpMatBReg
             // 
@@ -132,8 +135,8 @@
             this.signUpMatBReg.Depth = 0;
             this.signUpMatBReg.HighEmphasis = true;
             this.signUpMatBReg.Icon = null;
-            this.signUpMatBReg.Location = new System.Drawing.Point(361, 326);
-            this.signUpMatBReg.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.signUpMatBReg.Location = new System.Drawing.Point(481, 401);
+            this.signUpMatBReg.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
             this.signUpMatBReg.MouseState = MaterialSkin.MouseState.HOVER;
             this.signUpMatBReg.Name = "signUpMatBReg";
             this.signUpMatBReg.NoAccentTextColor = System.Drawing.Color.Empty;
@@ -149,7 +152,7 @@
             // 
             this.adminRadioButtonReg.AutoSize = true;
             this.adminRadioButtonReg.Depth = 0;
-            this.adminRadioButtonReg.Location = new System.Drawing.Point(580, 161);
+            this.adminRadioButtonReg.Location = new System.Drawing.Point(773, 198);
             this.adminRadioButtonReg.Margin = new System.Windows.Forms.Padding(0);
             this.adminRadioButtonReg.MouseLocation = new System.Drawing.Point(-1, -1);
             this.adminRadioButtonReg.MouseState = MaterialSkin.MouseState.HOVER;
@@ -165,7 +168,7 @@
             // 
             this.playerRadioButton.AutoSize = true;
             this.playerRadioButton.Depth = 0;
-            this.playerRadioButton.Location = new System.Drawing.Point(580, 215);
+            this.playerRadioButton.Location = new System.Drawing.Point(773, 265);
             this.playerRadioButton.Margin = new System.Windows.Forms.Padding(0);
             this.playerRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
             this.playerRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
@@ -182,7 +185,7 @@
             this.fanRadioButtonReg.AutoSize = true;
             this.fanRadioButtonReg.Checked = true;
             this.fanRadioButtonReg.Depth = 0;
-            this.fanRadioButtonReg.Location = new System.Drawing.Point(580, 269);
+            this.fanRadioButtonReg.Location = new System.Drawing.Point(773, 331);
             this.fanRadioButtonReg.Margin = new System.Windows.Forms.Padding(0);
             this.fanRadioButtonReg.MouseLocation = new System.Drawing.Point(-1, -1);
             this.fanRadioButtonReg.MouseState = MaterialSkin.MouseState.HOVER;
@@ -196,20 +199,22 @@
             // 
             // RegistrationForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.fanRadioButtonReg);
             this.Controls.Add(this.playerRadioButton);
             this.Controls.Add(this.adminRadioButtonReg);
             this.Controls.Add(this.signUpMatBReg);
-            this.Controls.Add(this.materialTextBox23);
+            this.Controls.Add(this.confPasswordRegTB);
             this.Controls.Add(this.passwordRegTB);
             this.Controls.Add(this.loginCreateRegTB);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "RegistrationForm";
+            this.Padding = new System.Windows.Forms.Padding(4, 79, 4, 4);
             this.Text = "RegistrationForm";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -220,7 +225,7 @@
 
         private MaterialSkin.Controls.MaterialTextBox2 loginCreateRegTB;
         private MaterialSkin.Controls.MaterialTextBox2 passwordRegTB;
-        private MaterialSkin.Controls.MaterialTextBox2 materialTextBox23;
+        private MaterialSkin.Controls.MaterialTextBox2 confPasswordRegTB;
         private MaterialSkin.Controls.MaterialButton signUpMatBReg;
         private MaterialSkin.Controls.MaterialRadioButton adminRadioButtonReg;
         private MaterialSkin.Controls.MaterialRadioButton playerRadioButton;
