@@ -1,5 +1,6 @@
 ﻿using MaterialSkin;
 using MaterialSkin.Controls;
+using SoccerApp.Forms;
 using System;
 using System.Windows.Forms;
 
@@ -20,19 +21,11 @@ namespace SoccerApp
         }
              
 
-        private void materialTextBox21_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void Password_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void signUpButton_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            Hide();
+            RegistrationForm registrationForm = new RegistrationForm();
+            registrationForm.ShowDialog();
         }
 
         private void signInButton_Click(object sender, EventArgs e)

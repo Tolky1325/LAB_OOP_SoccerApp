@@ -35,6 +35,7 @@
             this.Password = new MaterialSkin.Controls.MaterialTextBox2();
             this.signInButton = new MaterialSkin.Controls.MaterialButton();
             this.signUpButton = new System.Windows.Forms.LinkLabel();
+            this.noAccountLabelAuth = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // imageList1
@@ -75,7 +76,6 @@
             this.materialTextBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.materialTextBox21.TrailingIcon = null;
             this.materialTextBox21.UseSystemPasswordChar = false;
-            this.materialTextBox21.Click += new System.EventHandler(this.materialTextBox21_Click);
             // 
             // Password
             // 
@@ -91,7 +91,7 @@
             this.Password.MaxLength = 32767;
             this.Password.MouseState = MaterialSkin.MouseState.OUT;
             this.Password.Name = "Password";
-            this.Password.PasswordChar = '\0';
+            this.Password.PasswordChar = '●';
             this.Password.PrefixSuffixText = null;
             this.Password.ReadOnly = false;
             this.Password.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -105,7 +105,6 @@
             this.Password.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.Password.TrailingIcon = null;
             this.Password.UseSystemPasswordChar = false;
-            this.Password.Click += new System.EventHandler(this.Password_Click);
             // 
             // signInButton
             // 
@@ -134,7 +133,7 @@
             // signUpButton
             // 
             this.signUpButton.AutoSize = true;
-            this.signUpButton.Location = new System.Drawing.Point(284, 293);
+            this.signUpButton.Location = new System.Drawing.Point(360, 293);
             this.signUpButton.Name = "signUpButton";
             this.signUpButton.Size = new System.Drawing.Size(51, 13);
             this.signUpButton.TabIndex = 6;
@@ -142,11 +141,21 @@
             this.signUpButton.Text = "SIGN UP";
             this.signUpButton.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.signUpButton_LinkClicked);
             // 
+            // noAccountLabelAuth
+            // 
+            this.noAccountLabelAuth.AutoSize = true;
+            this.noAccountLabelAuth.Location = new System.Drawing.Point(203, 293);
+            this.noAccountLabelAuth.Name = "noAccountLabelAuth";
+            this.noAccountLabelAuth.Size = new System.Drawing.Size(122, 13);
+            this.noAccountLabelAuth.TabIndex = 7;
+            this.noAccountLabelAuth.Text = "Don\'t have an account?";
+            // 
             // AuthorizationForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.noAccountLabelAuth);
             this.Controls.Add(this.signUpButton);
             this.Controls.Add(this.signInButton);
             this.Controls.Add(this.Password);
@@ -155,8 +164,6 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AuthorizationForm";
             this.Padding = new System.Windows.Forms.Padding(2, 52, 2, 2);
-            this.Text = "Soccer App";
-            this.Load += new System.EventHandler(this.AuthorizationForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -169,6 +176,7 @@
         private MaterialSkin.Controls.MaterialTextBox2 Password;
         private MaterialSkin.Controls.MaterialButton signInButton;
         private System.Windows.Forms.LinkLabel signUpButton;
+        private System.Windows.Forms.Label noAccountLabelAuth;
     }
 }
 

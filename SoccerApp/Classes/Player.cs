@@ -9,10 +9,12 @@ namespace SoccerApp
     
         sealed class Player : SoccerTeam
         {
+            public string login;
+            public string password;
             public string playerFirstName;
             public string playerSecondName;
             public int playerId;
-            public string playerAge;
+            public int playerAge;
 
             public Player() { }
 
@@ -20,13 +22,22 @@ namespace SoccerApp
             {
                 this.playerId = playerId;
             }
-            public Player(string playerFirstName, string playerSecondName)
+            public Player(string login, string password, string playerFirstName, string playerSecondName, int playerId, int playerAge) : this(login, password)
+        {
+            this.playerFirstName = playerFirstName;
+            this.playerSecondName = playerSecondName;
+            this.playerId = playerId;
+            this.playerAge = playerAge;
+        }
+
+        public Player(int playerId , string login, string password)
             {
-                this.playerFirstName = playerFirstName;
-                this.playerSecondName = playerSecondName;
+                this.playerId = playerId;
+                this.login = login;
+                this.password = password;
             }
 
-            public Player(string playerFirstName, string playerSecondName, int playerId, string playerAge)
+            public Player(string playerFirstName, string playerSecondName, int playerId, int playerAge)
             {
                 this.playerFirstName = playerFirstName;
                 this.playerSecondName = playerSecondName;

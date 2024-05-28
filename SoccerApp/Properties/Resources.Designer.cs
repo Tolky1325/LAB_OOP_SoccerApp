@@ -69,5 +69,15 @@ namespace SoccerApp.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap account_remove_outline__Custom_ {
+            get {
+                object obj = ResourceManager.GetObject("account-remove-outline (Custom)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
