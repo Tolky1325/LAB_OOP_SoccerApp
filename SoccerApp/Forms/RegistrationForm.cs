@@ -42,15 +42,15 @@ namespace SoccerApp.Forms
 
         private void signUpMatBReg_Click(object sender, EventArgs e)
         {
-            string loginType = null;
-            int quan;
-            int id;
+            //int quan;
+            //int id;
             string login = loginCreateRegTB.Text;
             string password = passwordRegTB.Text;
             string confpassword = confPasswordRegTB.Text;
             if (string.IsNullOrEmpty(login) && password == confpassword)
             {
-               // string fanJson = "D:\\SoccerApp\\SoccerApp\\fanJson.json";
+                string loginType;
+                // string fanJson = "D:\\SoccerApp\\SoccerApp\\fanJson.json";
                 if (fanRadioButtonReg.Checked == true)
                 {
                     loginType = "fan";
@@ -63,34 +63,29 @@ namespace SoccerApp.Forms
                 {
                     loginType = "admin";
                 }
-               /* switch (loginType)
-                {
-                    case "fan":
-                        quan = DataReader(fanQuan);
-                        id = quan;
-                        List<Fan> fanList = new List<Fan>();
-                        Fan fan = new Fan(id, login, password) { fanId = id, login = login, password = password }; 
-                
-                        fanList.Add(fan);
-                        fanList = JsonConvert.SerializeObject(fanJson);
-                        break;  
+                /* switch (loginType)
+                 {
+                     case "fan":
+                         quan = DataReader(fanQuan);
+                         id = quan;
+                         List<Fan> fanList = new List<Fan>();
+                         Fan fan = new Fan(id, login, password) { fanId = id, login = login, password = password }; 
 
-                    case "player":
-                        quan = DataReader(playerQuan);
-                        break;
-                    case "admin":
-                        quan = DataReader(adminQuan);
-                        break;
-                }*/
+                         fanList.Add(fan);
+                         fanList = JsonConvert.SerializeObject(fanJson);
+                         break;  
+
+                     case "player":
+                         quan = DataReader(playerQuan);
+                         break;
+                     case "admin":
+                         quan = DataReader(adminQuan);
+                         break;
+                 }*/
                 Hide();
                 RegConfirmationForm regConfirmationForm = new RegConfirmationForm();
                 regConfirmationForm.ShowDialog();
             }
-        }
-
-        private List<Fan> Deserialize(List<Fan> fan)
-        {
-            throw new NotImplementedException();
         }
 
         private void backRegMB_Click(object sender, EventArgs e)

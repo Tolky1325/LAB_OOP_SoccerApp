@@ -34,3 +34,4 @@ D:\SoccerApp\SoccerApp\SoccerApp\bin\Debug\System.ValueTuple.xml
 D:\SoccerApp\SoccerApp\SoccerApp\bin\Debug\Newtonsoft.Json.dll
 D:\SoccerApp\SoccerApp\SoccerApp\bin\Debug\Newtonsoft.Json.xml
 D:\SoccerApp\SoccerApp\SoccerApp\obj\Debug\SoccerApp.FanForm.resources
+D:\SoccerApp\SoccerApp\SoccerApp\obj\Debug\SoccerApp.PlayerForm.resources

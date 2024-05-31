@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SoccerApp
 {
-    internal class Fan : ISaver
+    internal class Fan
     {
         public int fanId {  get; set; }
         public string login { get; set; }
