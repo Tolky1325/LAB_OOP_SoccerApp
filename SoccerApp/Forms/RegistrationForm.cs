@@ -19,16 +19,16 @@ namespace SoccerApp.Forms
 {
     public partial class RegistrationForm : MaterialForm
     {
-        public string adminQuan = "D:\\SoccerApp\\SoccerApp\\adminQuan.txt";
-        public string playerQuan = "D:\\SoccerApp\\SoccerApp\\playerQuan.txt";
-        public string fanQuan = "D:\\SoccerApp\\SoccerApp\\fanQuan.txt";
+        //public string adminQuan = "D:\\SoccerApp\\SoccerApp\\adminQuan.txt";
+        //public string playerQuan = "D:\\SoccerApp\\SoccerApp\\playerQuan.txt";
+        //public string fanQuan = "D:\\SoccerApp\\SoccerApp\\fanQuan.txt";
         
 
-        public int DataReader(string read)
-        {
-            var sr = new StreamReader(read);
-            return Convert.ToInt32(sr.ReadToEnd());
-        }
+        //public int DataReader(string read)
+        //{
+        //    var sr = new StreamReader(read);
+        //    return Convert.ToInt32(sr.ReadToEnd());
+        //}
 
         public RegistrationForm()
         {
@@ -50,7 +50,7 @@ namespace SoccerApp.Forms
             string confpassword = confPasswordRegTB.Text;
             if (string.IsNullOrEmpty(login) && password == confpassword)
             {
-                string fanJson = "D:\\SoccerApp\\SoccerApp\\fanJson.json";
+               // string fanJson = "D:\\SoccerApp\\SoccerApp\\fanJson.json";
                 if (fanRadioButtonReg.Checked == true)
                 {
                     loginType = "fan";
@@ -91,6 +91,13 @@ namespace SoccerApp.Forms
         private List<Fan> Deserialize(List<Fan> fan)
         {
             throw new NotImplementedException();
+        }
+
+        private void backRegMB_Click(object sender, EventArgs e)
+        {
+            Hide();
+            AuthorizationForm authorizationForm = new AuthorizationForm();
+            authorizationForm.ShowDialog();
         }
     }
 }

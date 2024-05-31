@@ -8,6 +8,7 @@ namespace SoccerApp
 {
     public partial class AuthorizationForm : MaterialForm
     {
+        private bool isPasswordVisible = false;
         public AuthorizationForm()
         {
             InitializeComponent();
@@ -19,7 +20,7 @@ namespace SoccerApp
             materialTextBox21.Hint = "LOGIN";
             Password.Hint = "PASSWORD";
         }
-             
+
 
         private void signUpButton_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -50,23 +51,12 @@ namespace SoccerApp
                     FanForm fanForm = new FanForm();
                     fanForm.ShowDialog();
                 }
-                }
+            }
             else
             {
-             
+
             }
         }
 
-        private void AuthorizationForm_Load(object sender, EventArgs e)
-        {
-
-        }
     }
-
-
-    //private void materialTextBox21_Click(object sender, EventArgs e)
-    //{
-    //    materialTextBox21.Hint = "Enter your text here...";
-    //}
-    // example of background hint in textbox
 }

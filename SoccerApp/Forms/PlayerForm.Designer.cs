@@ -28,10 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PlayerForm));
+            this.SuspendLayout();
+            // 
+            // PlayerForm
+            // 
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.FormStyle = MaterialSkin.Controls.MaterialForm.FormStyles.ActionBar_None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "PlayerForm";
+            this.Padding = new System.Windows.Forms.Padding(3, 24, 3, 3);
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PlayerForm";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

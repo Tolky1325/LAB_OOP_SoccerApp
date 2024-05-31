@@ -31,3 +31,6 @@ D:\SoccerApp\SoccerApp\SoccerApp\bin\Debug\System.Text.Encodings.Web.xml
 D:\SoccerApp\SoccerApp\SoccerApp\bin\Debug\System.Text.Json.xml
 D:\SoccerApp\SoccerApp\SoccerApp\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\SoccerApp\SoccerApp\SoccerApp\bin\Debug\System.ValueTuple.xml
+D:\SoccerApp\SoccerApp\SoccerApp\bin\Debug\Newtonsoft.Json.dll
+D:\SoccerApp\SoccerApp\SoccerApp\bin\Debug\Newtonsoft.Json.xml
+D:\SoccerApp\SoccerApp\SoccerApp\obj\Debug\SoccerApp.FanForm.resources

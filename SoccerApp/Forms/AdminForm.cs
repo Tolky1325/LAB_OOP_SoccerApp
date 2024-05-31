@@ -32,5 +32,7 @@ namespace SoccerApp
             AuthorizationForm authorizationForm = new AuthorizationForm();
             authorizationForm.ShowDialog();
         }
+
+       
     }
 }

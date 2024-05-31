@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SoccerApp
 {
-    internal class Admin
+    internal class Admin : ISaver
     {
         int id {  get; set; }
         string login {  get; set; }

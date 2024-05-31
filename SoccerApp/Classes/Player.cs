@@ -22,6 +22,12 @@ namespace SoccerApp
             {
                 this.playerId = playerId;
             }
+
+            public Player(string login, string password)
+        {
+            this.login = login;
+            this.password = password;
+        }
             public Player(string login, string password, string playerFirstName, string playerSecondName, int playerId, int playerAge) : this(login, password)
         {
             this.playerFirstName = playerFirstName;

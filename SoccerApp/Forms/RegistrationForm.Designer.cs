@@ -36,6 +36,7 @@
             this.adminRadioButtonReg = new MaterialSkin.Controls.MaterialRadioButton();
             this.playerRadioButton = new MaterialSkin.Controls.MaterialRadioButton();
             this.fanRadioButtonReg = new MaterialSkin.Controls.MaterialRadioButton();
+            this.backRegMB = new MaterialSkin.Controls.MaterialButton();
             this.SuspendLayout();
             // 
             // loginCreateRegTB
@@ -48,8 +49,8 @@
             this.loginCreateRegTB.HideSelection = true;
             this.loginCreateRegTB.Hint = "CREATE LOGIN";
             this.loginCreateRegTB.LeadingIcon = null;
-            this.loginCreateRegTB.Location = new System.Drawing.Point(367, 198);
-            this.loginCreateRegTB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.loginCreateRegTB.Location = new System.Drawing.Point(232, 136);
+            this.loginCreateRegTB.Margin = new System.Windows.Forms.Padding(4);
             this.loginCreateRegTB.MaxLength = 32767;
             this.loginCreateRegTB.MouseState = MaterialSkin.MouseState.OUT;
             this.loginCreateRegTB.Name = "loginCreateRegTB";
@@ -78,8 +79,8 @@
             this.passwordRegTB.HideSelection = true;
             this.passwordRegTB.Hint = "ENTER PASSWORD";
             this.passwordRegTB.LeadingIcon = null;
-            this.passwordRegTB.Location = new System.Drawing.Point(367, 265);
-            this.passwordRegTB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.passwordRegTB.Location = new System.Drawing.Point(232, 192);
+            this.passwordRegTB.Margin = new System.Windows.Forms.Padding(4);
             this.passwordRegTB.MaxLength = 32767;
             this.passwordRegTB.MouseState = MaterialSkin.MouseState.OUT;
             this.passwordRegTB.Name = "passwordRegTB";
@@ -108,8 +109,8 @@
             this.confPasswordRegTB.HideSelection = true;
             this.confPasswordRegTB.Hint = "CONFIRM PASSWORD";
             this.confPasswordRegTB.LeadingIcon = null;
-            this.confPasswordRegTB.Location = new System.Drawing.Point(367, 331);
-            this.confPasswordRegTB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.confPasswordRegTB.Location = new System.Drawing.Point(232, 248);
+            this.confPasswordRegTB.Margin = new System.Windows.Forms.Padding(4);
             this.confPasswordRegTB.MaxLength = 32767;
             this.confPasswordRegTB.MouseState = MaterialSkin.MouseState.OUT;
             this.confPasswordRegTB.Name = "confPasswordRegTB";
@@ -130,17 +131,18 @@
             // 
             // signUpMatBReg
             // 
+            this.signUpMatBReg.AutoSize = false;
             this.signUpMatBReg.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.signUpMatBReg.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
             this.signUpMatBReg.Depth = 0;
             this.signUpMatBReg.HighEmphasis = true;
             this.signUpMatBReg.Icon = null;
-            this.signUpMatBReg.Location = new System.Drawing.Point(481, 401);
+            this.signUpMatBReg.Location = new System.Drawing.Point(431, 307);
             this.signUpMatBReg.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
             this.signUpMatBReg.MouseState = MaterialSkin.MouseState.HOVER;
             this.signUpMatBReg.Name = "signUpMatBReg";
             this.signUpMatBReg.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.signUpMatBReg.Size = new System.Drawing.Size(88, 36);
+            this.signUpMatBReg.Size = new System.Drawing.Size(90, 35);
             this.signUpMatBReg.TabIndex = 3;
             this.signUpMatBReg.Text = "   SIGN UP   ";
             this.signUpMatBReg.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
@@ -152,7 +154,7 @@
             // 
             this.adminRadioButtonReg.AutoSize = true;
             this.adminRadioButtonReg.Depth = 0;
-            this.adminRadioButtonReg.Location = new System.Drawing.Point(773, 198);
+            this.adminRadioButtonReg.Location = new System.Drawing.Point(593, 147);
             this.adminRadioButtonReg.Margin = new System.Windows.Forms.Padding(0);
             this.adminRadioButtonReg.MouseLocation = new System.Drawing.Point(-1, -1);
             this.adminRadioButtonReg.MouseState = MaterialSkin.MouseState.HOVER;
@@ -168,7 +170,7 @@
             // 
             this.playerRadioButton.AutoSize = true;
             this.playerRadioButton.Depth = 0;
-            this.playerRadioButton.Location = new System.Drawing.Point(773, 265);
+            this.playerRadioButton.Location = new System.Drawing.Point(593, 203);
             this.playerRadioButton.Margin = new System.Windows.Forms.Padding(0);
             this.playerRadioButton.MouseLocation = new System.Drawing.Point(-1, -1);
             this.playerRadioButton.MouseState = MaterialSkin.MouseState.HOVER;
@@ -185,7 +187,7 @@
             this.fanRadioButtonReg.AutoSize = true;
             this.fanRadioButtonReg.Checked = true;
             this.fanRadioButtonReg.Depth = 0;
-            this.fanRadioButtonReg.Location = new System.Drawing.Point(773, 331);
+            this.fanRadioButtonReg.Location = new System.Drawing.Point(593, 259);
             this.fanRadioButtonReg.Margin = new System.Windows.Forms.Padding(0);
             this.fanRadioButtonReg.MouseLocation = new System.Drawing.Point(-1, -1);
             this.fanRadioButtonReg.MouseState = MaterialSkin.MouseState.HOVER;
@@ -197,11 +199,32 @@
             this.fanRadioButtonReg.Text = "Fan";
             this.fanRadioButtonReg.UseVisualStyleBackColor = true;
             // 
+            // backRegMB
+            // 
+            this.backRegMB.AutoSize = false;
+            this.backRegMB.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.backRegMB.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.backRegMB.Depth = 0;
+            this.backRegMB.HighEmphasis = true;
+            this.backRegMB.Icon = null;
+            this.backRegMB.Location = new System.Drawing.Point(274, 307);
+            this.backRegMB.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.backRegMB.MouseState = MaterialSkin.MouseState.HOVER;
+            this.backRegMB.Name = "backRegMB";
+            this.backRegMB.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.backRegMB.Size = new System.Drawing.Size(90, 35);
+            this.backRegMB.TabIndex = 7;
+            this.backRegMB.Text = "Back";
+            this.backRegMB.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.backRegMB.UseAccentColor = false;
+            this.backRegMB.UseVisualStyleBackColor = true;
+            this.backRegMB.Click += new System.EventHandler(this.backRegMB_Click);
+            // 
             // RegistrationForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.backRegMB);
             this.Controls.Add(this.fanRadioButtonReg);
             this.Controls.Add(this.playerRadioButton);
             this.Controls.Add(this.adminRadioButtonReg);
@@ -209,12 +232,14 @@
             this.Controls.Add(this.confPasswordRegTB);
             this.Controls.Add(this.passwordRegTB);
             this.Controls.Add(this.loginCreateRegTB);
+            this.FormStyle = MaterialSkin.Controls.MaterialForm.FormStyles.ActionBar_None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "RegistrationForm";
-            this.Padding = new System.Windows.Forms.Padding(4, 79, 4, 4);
+            this.Padding = new System.Windows.Forms.Padding(3, 24, 4, 4);
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RegistrationForm";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -230,5 +255,6 @@
         private MaterialSkin.Controls.MaterialRadioButton adminRadioButtonReg;
         private MaterialSkin.Controls.MaterialRadioButton playerRadioButton;
         private MaterialSkin.Controls.MaterialRadioButton fanRadioButtonReg;
+        private MaterialSkin.Controls.MaterialButton backRegMB;
     }
 }

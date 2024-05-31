@@ -122,6 +122,7 @@
     <Compile Include="Forms\RegistrationForm.Designer.cs">
       <DependentUpon>RegistrationForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interfaces\ISaver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\AdminForm.resx">
@@ -129,6 +130,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\AuthorizationForm.resx">
       <DependentUpon>AuthorizationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FanForm.resx">
+      <DependentUpon>FanForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PlayerForm.resx">
+      <DependentUpon>PlayerForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\RegConfirmationForm.resx">
       <DependentUpon>RegConfirmationForm.cs</DependentUpon>
@@ -165,6 +172,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\account-remove-outline %28Custom%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye-outline-custom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye-closed-custom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye-closed-custom %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

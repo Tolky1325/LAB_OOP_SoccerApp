@@ -33,5 +33,9 @@ namespace SoccerApp.Forms
             authorizationForm.Show();
         }
 
+        private void regConfLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

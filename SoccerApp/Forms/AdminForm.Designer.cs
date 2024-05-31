@@ -32,12 +32,16 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminForm));
             this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
             this.adminHomeTab = new System.Windows.Forms.TabPage();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.controlUserTab = new System.Windows.Forms.TabPage();
             this.settingsAdmTab = new System.Windows.Forms.TabPage();
             this.accountAdmTab = new System.Windows.Forms.TabPage();
-            this.adminImageList = new System.Windows.Forms.ImageList(this.components);
             this.logOutAdm = new MaterialSkin.Controls.MaterialButton();
+            this.adminImageList = new System.Windows.Forms.ImageList(this.components);
+            this.materialScrollBar1 = new MaterialSkin.Controls.MaterialScrollBar();
             this.materialTabControl1.SuspendLayout();
+            this.adminHomeTab.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.accountAdmTab.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,24 +54,36 @@
             this.materialTabControl1.Depth = 0;
             this.materialTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.materialTabControl1.ImageList = this.adminImageList;
-            this.materialTabControl1.Location = new System.Drawing.Point(3, 64);
+            this.materialTabControl1.Location = new System.Drawing.Point(0, 24);
             this.materialTabControl1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialTabControl1.Multiline = true;
             this.materialTabControl1.Name = "materialTabControl1";
             this.materialTabControl1.SelectedIndex = 0;
-            this.materialTabControl1.Size = new System.Drawing.Size(676, 364);
+            this.materialTabControl1.Size = new System.Drawing.Size(797, 423);
             this.materialTabControl1.TabIndex = 0;
             // 
             // adminHomeTab
             // 
+            this.adminHomeTab.AutoScroll = true;
             this.adminHomeTab.BackColor = System.Drawing.Color.White;
+            this.adminHomeTab.Controls.Add(this.panel1);
             this.adminHomeTab.ImageKey = "soccer (Custom).png";
             this.adminHomeTab.Location = new System.Drawing.Point(4, 39);
             this.adminHomeTab.Name = "adminHomeTab";
             this.adminHomeTab.Padding = new System.Windows.Forms.Padding(3);
-            this.adminHomeTab.Size = new System.Drawing.Size(668, 321);
+            this.adminHomeTab.Size = new System.Drawing.Size(789, 380);
             this.adminHomeTab.TabIndex = 0;
             this.adminHomeTab.Text = "Home";
+            // 
+            // panel1
+            // 
+            this.panel1.AutoScroll = true;
+            this.panel1.Controls.Add(this.materialScrollBar1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(783, 374);
+            this.panel1.TabIndex = 0;
             // 
             // controlUserTab
             // 
@@ -76,7 +92,7 @@
             this.controlUserTab.Location = new System.Drawing.Point(4, 39);
             this.controlUserTab.Name = "controlUserTab";
             this.controlUserTab.Padding = new System.Windows.Forms.Padding(3);
-            this.controlUserTab.Size = new System.Drawing.Size(668, 321);
+            this.controlUserTab.Size = new System.Drawing.Size(789, 380);
             this.controlUserTab.TabIndex = 1;
             this.controlUserTab.Text = "User control";
             // 
@@ -87,7 +103,7 @@
             this.settingsAdmTab.Location = new System.Drawing.Point(4, 39);
             this.settingsAdmTab.Name = "settingsAdmTab";
             this.settingsAdmTab.Padding = new System.Windows.Forms.Padding(3);
-            this.settingsAdmTab.Size = new System.Drawing.Size(668, 321);
+            this.settingsAdmTab.Size = new System.Drawing.Size(789, 380);
             this.settingsAdmTab.TabIndex = 2;
             this.settingsAdmTab.Text = "Settings";
             // 
@@ -99,25 +115,16 @@
             this.accountAdmTab.Location = new System.Drawing.Point(4, 39);
             this.accountAdmTab.Name = "accountAdmTab";
             this.accountAdmTab.Padding = new System.Windows.Forms.Padding(3);
-            this.accountAdmTab.Size = new System.Drawing.Size(668, 321);
+            this.accountAdmTab.Size = new System.Drawing.Size(789, 380);
             this.accountAdmTab.TabIndex = 3;
             this.accountAdmTab.Text = "Your account";
-            // 
-            // adminImageList
-            // 
-            this.adminImageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("adminImageList.ImageStream")));
-            this.adminImageList.TransparentColor = System.Drawing.Color.Transparent;
-            this.adminImageList.Images.SetKeyName(0, "soccer (Custom).png");
-            this.adminImageList.Images.SetKeyName(1, "account-group-outline-custom.png");
-            this.adminImageList.Images.SetKeyName(2, "cog (Custom).png");
-            this.adminImageList.Images.SetKeyName(3, "account-outline (Custom).png");
-            this.adminImageList.Images.SetKeyName(4, "account-remove-outline (Custom).png");
             // 
             // logOutAdm
             // 
             this.logOutAdm.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.logOutAdm.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
             this.logOutAdm.Depth = 0;
+            this.logOutAdm.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.logOutAdm.HighEmphasis = true;
             this.logOutAdm.Icon = global::SoccerApp.Properties.Resources.account_remove_outline__Custom_;
             this.logOutAdm.Location = new System.Drawing.Point(551, 276);
@@ -133,17 +140,48 @@
             this.logOutAdm.UseVisualStyleBackColor = true;
             this.logOutAdm.Click += new System.EventHandler(this.logOutAdm_Click);
             // 
+            // adminImageList
+            // 
+            this.adminImageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("adminImageList.ImageStream")));
+            this.adminImageList.TransparentColor = System.Drawing.Color.Transparent;
+            this.adminImageList.Images.SetKeyName(0, "soccer (Custom).png");
+            this.adminImageList.Images.SetKeyName(1, "account-group-outline-custom.png");
+            this.adminImageList.Images.SetKeyName(2, "cog (Custom).png");
+            this.adminImageList.Images.SetKeyName(3, "account-outline (Custom).png");
+            this.adminImageList.Images.SetKeyName(4, "account-remove-outline (Custom).png");
+            // 
+            // materialScrollBar1
+            // 
+            this.materialScrollBar1.Depth = 0;
+            this.materialScrollBar1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.materialScrollBar1.Location = new System.Drawing.Point(773, 0);
+            this.materialScrollBar1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialScrollBar1.Name = "materialScrollBar1";
+            this.materialScrollBar1.Orientation = MaterialSkin.Controls.MaterialScrollOrientation.Vertical;
+            this.materialScrollBar1.Size = new System.Drawing.Size(10, 374);
+            this.materialScrollBar1.TabIndex = 0;
+            this.materialScrollBar1.Text = "materialScrollBar1";
+            // 
             // AdminForm
             // 
-            this.ClientSize = new System.Drawing.Size(682, 431);
+            this.CancelButton = this.logOutAdm;
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.materialTabControl1);
+            this.DrawerShowIconsWhenHidden = true;
             this.DrawerTabControl = this.materialTabControl1;
+            this.DrawerUseColors = true;
+            this.FormStyle = MaterialSkin.Controls.MaterialForm.FormStyles.ActionBar_None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "AdminForm";
+            this.Padding = new System.Windows.Forms.Padding(0, 24, 3, 3);
             this.Sizable = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdminForm";
             this.materialTabControl1.ResumeLayout(false);
+            this.adminHomeTab.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
             this.accountAdmTab.ResumeLayout(false);
             this.accountAdmTab.PerformLayout();
             this.ResumeLayout(false);
@@ -165,5 +203,7 @@
         private System.Windows.Forms.TabPage accountAdmTab;
         private System.Windows.Forms.ImageList adminImageList;
         private MaterialSkin.Controls.MaterialButton logOutAdm;
+        private System.Windows.Forms.Panel panel1;
+        private MaterialSkin.Controls.MaterialScrollBar materialScrollBar1;
     }
 }

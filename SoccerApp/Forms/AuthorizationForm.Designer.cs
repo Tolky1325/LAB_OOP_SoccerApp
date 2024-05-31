@@ -33,9 +33,9 @@
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.materialTextBox21 = new MaterialSkin.Controls.MaterialTextBox2();
             this.Password = new MaterialSkin.Controls.MaterialTextBox2();
-            this.signInButton = new MaterialSkin.Controls.MaterialButton();
             this.signUpButton = new System.Windows.Forms.LinkLabel();
             this.noAccountLabelAuth = new System.Windows.Forms.Label();
+            this.signInButton = new MaterialSkin.Controls.MaterialButton();
             this.SuspendLayout();
             // 
             // imageList1
@@ -53,12 +53,13 @@
             this.materialTextBox21.AnimateReadOnly = false;
             this.materialTextBox21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.materialTextBox21.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.materialTextBox21.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.materialTextBox21.Depth = 0;
             this.materialTextBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.materialTextBox21.HideSelection = true;
             this.materialTextBox21.LeadingIcon = null;
-            this.materialTextBox21.Location = new System.Drawing.Point(219, 128);
-            this.materialTextBox21.Margin = new System.Windows.Forms.Padding(2);
+            this.materialTextBox21.Location = new System.Drawing.Point(289, 141);
+            this.materialTextBox21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.materialTextBox21.MaxLength = 32767;
             this.materialTextBox21.MouseState = MaterialSkin.MouseState.OUT;
             this.materialTextBox21.Name = "materialTextBox21";
@@ -70,7 +71,7 @@
             this.materialTextBox21.SelectionLength = 0;
             this.materialTextBox21.SelectionStart = 0;
             this.materialTextBox21.ShortcutsEnabled = true;
-            this.materialTextBox21.Size = new System.Drawing.Size(188, 48);
+            this.materialTextBox21.Size = new System.Drawing.Size(251, 48);
             this.materialTextBox21.TabIndex = 3;
             this.materialTextBox21.TabStop = false;
             this.materialTextBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -82,12 +83,13 @@
             this.Password.AnimateReadOnly = false;
             this.Password.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.Password.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.Password.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Password.Depth = 0;
             this.Password.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.Password.HideSelection = true;
             this.Password.LeadingIcon = null;
-            this.Password.Location = new System.Drawing.Point(219, 197);
-            this.Password.Margin = new System.Windows.Forms.Padding(2);
+            this.Password.Location = new System.Drawing.Point(289, 202);
+            this.Password.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Password.MaxLength = 32767;
             this.Password.MouseState = MaterialSkin.MouseState.OUT;
             this.Password.Name = "Password";
@@ -99,23 +101,47 @@
             this.Password.SelectionLength = 0;
             this.Password.SelectionStart = 0;
             this.Password.ShortcutsEnabled = true;
-            this.Password.Size = new System.Drawing.Size(188, 48);
+            this.Password.Size = new System.Drawing.Size(251, 48);
             this.Password.TabIndex = 4;
             this.Password.TabStop = false;
             this.Password.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.Password.TrailingIcon = null;
             this.Password.UseSystemPasswordChar = false;
             // 
+            // signUpButton
+            // 
+            this.signUpButton.AutoSize = true;
+            this.signUpButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.signUpButton.Location = new System.Drawing.Point(455, 300);
+            this.signUpButton.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.signUpButton.Name = "signUpButton";
+            this.signUpButton.Size = new System.Drawing.Size(61, 16);
+            this.signUpButton.TabIndex = 6;
+            this.signUpButton.TabStop = true;
+            this.signUpButton.Text = "SIGN UP";
+            this.signUpButton.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.signUpButton_LinkClicked);
+            // 
+            // noAccountLabelAuth
+            // 
+            this.noAccountLabelAuth.AutoSize = true;
+            this.noAccountLabelAuth.Location = new System.Drawing.Point(301, 300);
+            this.noAccountLabelAuth.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.noAccountLabelAuth.Name = "noAccountLabelAuth";
+            this.noAccountLabelAuth.Size = new System.Drawing.Size(146, 16);
+            this.noAccountLabelAuth.TabIndex = 7;
+            this.noAccountLabelAuth.Text = "Don\'t have an account?";
+            // 
             // signInButton
             // 
             this.signInButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.signInButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.signInButton.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
             this.signInButton.Depth = 0;
             this.signInButton.HighEmphasis = true;
             this.signInButton.Icon = global::SoccerApp.Properties.Resources.account_arrow_right_outline__Custom_;
             this.signInButton.Image = global::SoccerApp.Properties.Resources.account_arrow_right_outline__Custom_;
-            this.signInButton.Location = new System.Drawing.Point(255, 252);
-            this.signInButton.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.signInButton.Location = new System.Drawing.Point(362, 258);
+            this.signInButton.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.signInButton.MouseState = MaterialSkin.MouseState.HOVER;
             this.signInButton.Name = "signInButton";
             this.signInButton.NoAccentTextColor = System.Drawing.Color.Empty;
@@ -130,40 +156,25 @@
             this.signInButton.UseVisualStyleBackColor = true;
             this.signInButton.Click += new System.EventHandler(this.signInButton_Click);
             // 
-            // signUpButton
-            // 
-            this.signUpButton.AutoSize = true;
-            this.signUpButton.Location = new System.Drawing.Point(360, 293);
-            this.signUpButton.Name = "signUpButton";
-            this.signUpButton.Size = new System.Drawing.Size(51, 13);
-            this.signUpButton.TabIndex = 6;
-            this.signUpButton.TabStop = true;
-            this.signUpButton.Text = "SIGN UP";
-            this.signUpButton.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.signUpButton_LinkClicked);
-            // 
-            // noAccountLabelAuth
-            // 
-            this.noAccountLabelAuth.AutoSize = true;
-            this.noAccountLabelAuth.Location = new System.Drawing.Point(203, 293);
-            this.noAccountLabelAuth.Name = "noAccountLabelAuth";
-            this.noAccountLabelAuth.Size = new System.Drawing.Size(122, 13);
-            this.noAccountLabelAuth.TabIndex = 7;
-            this.noAccountLabelAuth.Text = "Don\'t have an account?";
-            // 
             // AuthorizationForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.noAccountLabelAuth);
             this.Controls.Add(this.signUpButton);
             this.Controls.Add(this.signInButton);
             this.Controls.Add(this.Password);
             this.Controls.Add(this.materialTextBox21);
+            this.FormStyle = MaterialSkin.Controls.MaterialForm.FormStyles.ActionBar_None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "AuthorizationForm";
-            this.Padding = new System.Windows.Forms.Padding(2, 52, 2, 2);
+            this.Padding = new System.Windows.Forms.Padding(3, 24, 3, 2);
+            this.Sizable = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Authorization";
             this.ResumeLayout(false);
             this.PerformLayout();
 
