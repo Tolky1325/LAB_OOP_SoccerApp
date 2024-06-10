@@ -36,6 +36,8 @@
             this.signUpButton = new System.Windows.Forms.LinkLabel();
             this.noAccountLabelAuth = new System.Windows.Forms.Label();
             this.signInButton = new MaterialSkin.Controls.MaterialButton();
+            this.admAuth = new MaterialSkin.Controls.MaterialRadioButton();
+            this.fanAuth = new MaterialSkin.Controls.MaterialRadioButton();
             this.SuspendLayout();
             // 
             // imageList1
@@ -156,10 +158,44 @@
             this.signInButton.UseVisualStyleBackColor = true;
             this.signInButton.Click += new System.EventHandler(this.signInButton_Click);
             // 
+            // admAuth
+            // 
+            this.admAuth.AutoSize = true;
+            this.admAuth.Depth = 0;
+            this.admAuth.Location = new System.Drawing.Point(568, 152);
+            this.admAuth.Margin = new System.Windows.Forms.Padding(0);
+            this.admAuth.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.admAuth.MouseState = MaterialSkin.MouseState.HOVER;
+            this.admAuth.Name = "admAuth";
+            this.admAuth.Ripple = true;
+            this.admAuth.Size = new System.Drawing.Size(81, 37);
+            this.admAuth.TabIndex = 8;
+            this.admAuth.TabStop = true;
+            this.admAuth.Text = "Admin";
+            this.admAuth.UseVisualStyleBackColor = true;
+            // 
+            // fanAuth
+            // 
+            this.fanAuth.AutoSize = true;
+            this.fanAuth.Depth = 0;
+            this.fanAuth.Location = new System.Drawing.Point(568, 202);
+            this.fanAuth.Margin = new System.Windows.Forms.Padding(0);
+            this.fanAuth.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.fanAuth.MouseState = MaterialSkin.MouseState.HOVER;
+            this.fanAuth.Name = "fanAuth";
+            this.fanAuth.Ripple = true;
+            this.fanAuth.Size = new System.Drawing.Size(62, 37);
+            this.fanAuth.TabIndex = 9;
+            this.fanAuth.TabStop = true;
+            this.fanAuth.Text = "Fan";
+            this.fanAuth.UseVisualStyleBackColor = true;
+            // 
             // AuthorizationForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.fanAuth);
+            this.Controls.Add(this.admAuth);
             this.Controls.Add(this.noAccountLabelAuth);
             this.Controls.Add(this.signUpButton);
             this.Controls.Add(this.signInButton);
@@ -188,6 +224,8 @@
         private MaterialSkin.Controls.MaterialButton signInButton;
         private System.Windows.Forms.LinkLabel signUpButton;
         private System.Windows.Forms.Label noAccountLabelAuth;
+        private MaterialSkin.Controls.MaterialRadioButton admAuth;
+        private MaterialSkin.Controls.MaterialRadioButton fanAuth;
     }
 }
 

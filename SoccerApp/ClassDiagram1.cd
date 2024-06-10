@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SoccerApp.Admin" Collapsed="true">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAEAAAAAQABAAAAgACABAQAAAAAAA=</HashCode>
+      <FileName>Classes\Users\Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoccerApp.Fan" Collapsed="true">
+    <Position X="5.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAEAAAAAAAAAAAAAACAAAQAAAAAAA=</HashCode>
+      <FileName>Classes\Users\Fan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoccerApp.Player" Collapsed="true">
+    <Position X="3.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAABAAAAAAAAAAAgAAEAA=</HashCode>
+      <FileName>Classes\Users\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoccerApp.SoccerTeam" Collapsed="true">
+    <Position X="3.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgADAAAAAAAAAAAAAAAAAAgAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Classes\SoccerTeam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoccerApp.Tournament" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAEAAAAQAAAAAAAAAAAIAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Tournament.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

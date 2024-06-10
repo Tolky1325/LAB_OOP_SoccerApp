@@ -1,15 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace SoccerApp
 {
-    internal class SoccerTeam : Tournament
+    internal class SoccerTeam
     {
+        [Key]
+        public int Id { get; set; }
+        [Required]
         public string nameOfTeam { get; set; }
         public int timesWon { get; set; }
+
+        public ICollection<Player> players { get; set; }
+
+        public Tournament Tournament { get; set; }
 
         public SoccerTeam() { }
 

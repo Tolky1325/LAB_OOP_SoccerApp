@@ -3,6 +3,7 @@ using MaterialSkin.Controls;
 using SoccerApp.Forms;
 using System;
 using System.Windows.Forms;
+using System.Linq;
 
 namespace SoccerApp
 {
@@ -21,7 +22,6 @@ namespace SoccerApp
             Password.Hint = "PASSWORD";
         }
 
-
         private void signUpButton_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Hide();
@@ -33,30 +33,68 @@ namespace SoccerApp
         {
             string userLogin = materialTextBox21.Text;
             string userPassword = Password.Text;
-            if (string.IsNullOrEmpty(userLogin) == false && string.IsNullOrEmpty(userPassword) == false)
+            if (!string.IsNullOrEmpty(userLogin) && !string.IsNullOrEmpty(userPassword))
             {
-                Hide();
-                if (userLogin == "admin" && userPassword == "admin")
+                string loginType = null;
+
+                if (fanAuth.Checked)
                 {
-                    AdminForm adminForm = new AdminForm();
-                    adminForm.ShowDialog();
+                    loginType = "fan";
                 }
-                else if (userLogin == "player" && userPassword == "player")
+                else if (admAuth.Checked)
                 {
-                    PlayerForm playerForm = new PlayerForm();
-                    playerForm.ShowDialog();
+                    loginType = "admin";
                 }
-                else if (userLogin == "fan" && userPassword == "fan")
+
+                if (loginType == null)
                 {
-                    FanForm fanForm = new FanForm();
-                    fanForm.ShowDialog();
+                    MessageBox.Show("Please select a user type.");
+                    return;
+                }
+
+                using (var appContext = new AppDbContext())
+                {
+                    bool isAuthenticated = false;
+
+                    if (loginType == "admin")
+                    {
+                        var admin = appContext.AdminTable
+                            .Where(a => a.Login == userLogin && a.Password == userPassword && a.Role == "admin")
+                            .FirstOrDefault();
+
+                        isAuthenticated = admin != null;
+                    }
+                    else if (loginType == "fan")
+                    {
+                        var fan = appContext.FanTable
+                            .Where(f => f.Login == userLogin && f.Password == userPassword && f.Role == "fan")
+                            .FirstOrDefault();
+
+                        isAuthenticated = fan != null;
+                    }
+
+                    if (isAuthenticated && loginType == "admin")
+                    {
+                        Hide();
+                        AdminForm adminform = new AdminForm();
+                        adminform.Show();
+                    }
+                    else if(isAuthenticated  && loginType == "fan")
+                    {
+                        Hide();
+                        FanForm fanform = new FanForm();
+                        fanform.Show();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Invalid login or password.");
+                    }
                 }
             }
             else
             {
-
+                MessageBox.Show("Please enter both login and password.");
             }
         }
-
     }
 }

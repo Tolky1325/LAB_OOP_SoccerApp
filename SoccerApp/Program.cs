@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SoccerApp;
+using System;
 using System.Windows.Forms;
 
 namespace SoccerApp
@@ -14,6 +15,10 @@ namespace SoccerApp
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new AuthorizationForm());
+            using (var appContext = new AppDbContext())
+            {
+
+            }
         }
 
     }
